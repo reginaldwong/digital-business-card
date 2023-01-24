@@ -3,12 +3,11 @@ import React from "react"
 const Info = () => {
     return (
         <header>
-            <img src="./assets/1579800055135.jpeg" alt="" />
-            <h1>Reginald Wong</h1>
-            <h3>Full Stack Software Developer</h3>
-            <h4><a href="https://reginaldwong.com" target="_blank">reginaldwong.com</a></h4>
-            <button>Email</button>
-            <button>LinkedIn</button>
+            <img src="src/assets/1579800055135.jpeg" alt="reginald wong" className="header--image" />
+            <h1 className="header--name">Reginald Wong</h1>
+            <h3 className="header--title">Full Stack Software Developer</h3>
+            <h4 className="header--link"><a href="https://reginaldwong.com" target="_blank">reginaldwong.com</a></h4>
+            <button><a href="mailto:reginaldwongdev@gmail.com">Email</a></button>
         </header>
     )
 }
