@@ -174,3 +174,21 @@ body {
   width: 247px;
   margin: 0 auto;
 }
+
+/* FOOTER COMPONENT */
+footer {
+  background-color: #161619;
+  margin-top: auto;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer--list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0px;
+}
+
+
+
+
