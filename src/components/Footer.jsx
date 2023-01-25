@@ -9,11 +9,11 @@ const Footer = () => {
     return (
        <footer>
         <ul className="footer--list">
-            <li><a href="https://linkedin.com/in/reginaldwong" target="_blank"><img src={twitterIcon}/></a></li>
-            <li><a href="https://linkedin.com/in/reginaldwong" target="_blank"><img src={facebookIcon}/></a></li>
-            <li><a href="https://linkedin.com/in/reginaldwong" target="_blank"><img src={instagramIcon}/></a></li>
+            <li><a href="https://reginaldwong.com" target="_blank"><img src={twitterIcon}/></a></li>
+            <li><a href="https://reginaldwong.com" target="_blank"><img src={facebookIcon}/></a></li>
+            <li><a href="https://reginaldwong.com" target="_blank"><img src={instagramIcon}/></a></li>
             <li><a href="https://linkedin.com/in/reginaldwong" target="_blank"><img src={linkedinIcon}/></a></li>
-            <li><a href="https://linkedin.com/in/reginaldwong" target="_blank"><img src={githubIcon}/></a></li>
+            <li><a href="https://github.com/reginaldwong" target="_blank"><img src={githubIcon}/></a></li>
            
         </ul>
        </footer>
